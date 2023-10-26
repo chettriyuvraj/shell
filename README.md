@@ -6,7 +6,7 @@ This shell was created to apply concepts learnt in Chapter 8 of [CS: APP](https:
 
 What works and what is left:
 
-- It has a cool logo 🔥
+- It has a really cute logo 🔥
 - Executes commands by spawning child processes: try _sleep 30_ in this shell and quickly _ps -j -h | grep sleep_ in bash to see the child process you have created.
 - Demonstrates the concept of signal handling: try _sleep 30_ and _ctrl + c_ to send a SIGINT which kills the child process, you can check using the _ps_ command previously explained.
 - Operator handling: implements the _&&_ and _||_ operators as they work in bash.
